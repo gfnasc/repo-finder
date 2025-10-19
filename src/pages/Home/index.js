@@ -1,11 +1,14 @@
 import { Header } from '../../components/Header'
 
-function App() {
+import './styles.css'
+
+function Home() {
   return (
-    <div className="App">
+    <div className="home">
       <Header />
+      <div className="content"></div>
     </div>
   );
 }
 
-export default App;
+export default Home;
